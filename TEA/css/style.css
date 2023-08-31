@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: armin;
+  src: url(../IRANSansX-Bold.woff2);
+}
+@font-face {
+  font-family: armin2;
+  src: url(../IRANSansX-Medium.woff2);
+}
+@font-face {
+  font-family: armin3;
+  src: url(../IRANSansX-Light.woff2);
+}
+@font-face {
+  font-family: armin4;
+  src: url(../IRANSansX-UltraLight.woff2);
+}
+div.menu {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(43, 42, 42);
+  position: fixed;
+  z-index: 999;
+}
+div.menu > nav {
+  width: 700px;
+  height: 100px;
+  margin-right: 500px;
+}
+div.menu > nav > ul {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: end;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+div.menu > nav > ul > li {
+  border-left: 1px solid rgba(128, 128, 128, 0.719);
+  padding-left: 10px;
+  color: rgba(211, 211, 211, 0.822);
+}
+div.menu > nav > ul > li.none {
+  border-left: unset;
+}
+div.logo > img {
+  position: absolute;
+  left: 1050px;
+  top: 40px;
+  z-index: 999;
+}
+div.tea {
+  width: 100%;
+  height: 600px;
+  background-color: #e0dfdc9d;
+}
+div.tea > img {
+  position: absolute;
+  left: 225px;
+  top: 150px;
+}
+div.tea > h1 {
+  position: absolute;
+  left: 1040px;
+  top: 200px;
+  font-family: armin4;
+  color: rgb(226, 22, 22);
+}
+div.tea > h2 {
+  position: absolute;
+  left: 1075px;
+  top: 250px;
+  font-weight: 500;
+  font-family: armin4;
+  font-size: 18px;
+  color: gray;
+}
+div.tea > pre {
+  position: absolute;
+  left: 785px;
+  top: 320px;
+  font-size: 17px;
+  font-family: armin4;
+  color: gray;
+}
+div.tea > a {
+  position: absolute;
+  left: 1040px;
+  top: 450px;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 20px;
+  color: gray;
+  width: 135px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: armin3;
+  border: 0.5px solid rgba(187, 184, 184, 0.884);
+}
+div.tea > a:hover {
+  background-color: rgb(226, 22, 22);
+  color: white;
+}
+div.w {
+  width: 700px;
+  height: 33px;
+}
+div.w > h2 {
+  color: rgb(226, 22, 22);
+  position: absolute;
+  top: 680px;
+  left: 960px;
+  font-family: armin2;
+  font-size: 20px;
+}
+div.w > pre {
+  font-family: armin3;
+  position: absolute;
+  top: 750px;
+  left: 290px;
+  font-size: 16px;
+  font-size: 18px;
+  color: gray;
+}
+
+div.w > pre > span {
+  color: rgb(226, 22, 22);
+}
+div.w > h2.t3 {
+  color: rgb(226, 22, 22);
+  position: absolute;
+  top: 1080px;
+  left: 930px;
+  font-family: armin2;
+  font-size: 20px;
+}
+div.w > pre.t4 {
+  font-family: armin3;
+  position: absolute;
+  top: 1150px;
+  left: 289px;
+  font-size: 16px;
+  font-size: 18px;
+  color: gray;
+}
+div.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 850px;
+  text-align: center;
+}
+div.icon p {
+  font-family: armin4;
+  font-size: 20px;
+  color: gray;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.315);
+}
+
+div.red {
+  background-color: rgb(226, 22, 22);
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  top: 2382px;
+  left: 700px;
+  z-index: 999;
+}
+div.red > h2 {
+  font-size: 30px;
+  color: white;
+  direction: rtl;
+  padding-right: 25px;
+  padding-top: 5px;
+  font-family: armin4;
+}
+div.kerem {
+  width: 1400px;
+  height: 20px;
+  background-color: #e9d69f;
+  margin: -10px 0 0;
+}
+div.red > p {
+  font-size: 20px;
+  color: white;
+  direction: rtl;
+  padding-right: 25px;
+  padding-top: 5px;
+  font-family: armin4;
+}
